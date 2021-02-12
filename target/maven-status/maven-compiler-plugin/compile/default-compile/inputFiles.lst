@@ -1,0 +1,12 @@
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/managers/WebDriverManager.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/enums/DriverType.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/pagefactory/LoginPage.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/managers/PageObjectManager.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/pagefactory/TicketCreationTab.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/managers/FileReaderManager.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/pagefactory/HomePage.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/pagefactory/CreateChildTicket.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/pagefactory/ChangeStatusOfTicket.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/dataProviders/ConfigFileReader.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/env/Env.java
+/Users/vijaykyama/Desktop/Selenium-UI-TestAutomation/src/main/java/pagefactory/VisitUrls.java
