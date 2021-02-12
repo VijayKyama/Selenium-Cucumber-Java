@@ -101,8 +101,6 @@ public class CreateChildTicket {
 
         System.out.println("Child ticket is clicked");
         driver.switchTo().defaultContent();
-       // WebDriverWait wait=new WebDriverWait(driver, 20);
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@data-test-id='ticket-fields-tags']//li[2]/a")));
 
 
     }

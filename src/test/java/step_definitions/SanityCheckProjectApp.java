@@ -28,24 +28,24 @@ public class SanityCheckProjectApp extends Base{
 
     @Given("User launches the application url")
     public void user_launches_the_application_url() {
+        String url_to_visit= super.getConfigData().getApplicationUrl();
+       super.getPageObjectManager().getLoginPage().visitTestUrl(url_to_visit);
 
-        super.getPageObjectManager().getLoginPage().visitTestUrl("https://z3nsreenivasasupport.zendesk.com/access/unauthenticated?");
 
     }
 
 
     @When("User enters valid credentials")
     public void user_enters_valid_credentials() {
-        super.getPageObjectManager().getLoginPage().enterEmail("sreenivasa.rao+autoagent1@zendesk.com");
-        super.getPageObjectManager().getLoginPage().enterPassword("Zendesk@123");
-       // pageObjectManager.getLoginPage().enterEmail("sreenivasa.rao+autoagent1@zendesk.com");
-        //pageObjectManager.getLoginPage().enterPassword("Zendesk@123");
+        pageObjectManager.getLoginPage().enterEmail(super.getConfigData().emailId());
+        pageObjectManager.getLoginPage().enterPassword(super.getConfigData().passWord());
+
     }
 
     @When("Click on signin button")
     public void click_on_signin_button() {
-        super.getPageObjectManager().getLoginPage().submitButton();
-       // pageObjectManager.getLoginPage().submitButton();
+        pageObjectManager.getLoginPage().submitButton();
+
 
     }
 
@@ -63,7 +63,7 @@ public class SanityCheckProjectApp extends Base{
     @Given("User is on home screen")
     public void user_is_on_home_screen() {
 
-       // pageObjectManager.getLandingPage().waitForTicketDashboard();
+
 
     }
 

@@ -68,4 +68,16 @@ public class ConfigFileReader {
         return true;
     }
 
+    public String emailId() {
+        String email = properties.getProperty("email");
+        if(email != null) return email;
+        else throw new RuntimeException("Application Url not specified in the Configuration.properties file for the Key:url");
+    }
+
+    public String passWord() {
+        String password = properties.getProperty("password");
+        if(password != null) return password;
+        else throw new RuntimeException("Application Url not specified in the Configuration.properties file for the Key:url");
+    }
+
 }
